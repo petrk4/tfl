@@ -20,9 +20,8 @@ def main():
 
         syntaxAnalyzer = SyntacticalAnalyzer(lexer.lexeme_table, identifiersTable)
         syntaxAnalyzer.PROGRAMM()
-        print("+---------+")
-        print("| SUCCESS |")
-        print("+---------+")
+        print("COMPILED")
+
 
 
 

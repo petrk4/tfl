@@ -96,11 +96,11 @@ class SyntacticalAnalyzer:
 
     def COMPOSITE_OPERATOR(self):
         self.expect_token_value("begin")
-        self.operator()
+        self.OPERATOR()
 
         while self.current_lex.token_value == ";":
             self.current_lex = next(self.lex_get)
-            self.operator()
+            self.OPERATOR()
 
         self.expect_token_value("end")
 
