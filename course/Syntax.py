@@ -7,7 +7,7 @@ class SyntacticalAnalyzer:
         self.relation_operations = {"!=", "==", "<", "<=", ">", ">="}
         self.term_operations = {"+", "-", "||"}
         self.factor_operations = {"*", "/", "&&"}
-        self.keywords = {"or": 1, "and": 2, "~": 3, ":=": 4, "if": 5,
+        self.keywords = {"or": 1, "and": 2, "!": 3, ":=": 4, "if": 5,
                          "then": 6, "else": 7, "for": 8, "to": 9, "step": 10, "while": 11, "readln": 12, "writeln": 13,
                          "true": 14, "false": 15, "begin": 16, "end": 17, "next": 18, "dim": 19}
 
